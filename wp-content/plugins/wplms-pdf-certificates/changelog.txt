@@ -1,0 +1,29 @@
+*1.5
+*finish course redirecting to pdf fix
+*1.4
+*pdf redirect issue when finish course
+*redirect to pdf certificate instead of html page if show pdf certificates only is enabled .
+*show pdf certificates only not working fix
+*no message
+*changing its version from 1.1 to 1.2
+*Adding grids in page builder of pdf certificate
+*1.2
+*Custom fonts
+*font attachments
+*mime
+*translation update
+*1.1
+*certificate_builder final
+*popupelemet
+*border radius
+*the content return
+*pdf controls
+*sample pdf function changes
+*builder
+*builder
+*Orientation and other things
+*PDF orientation
+*Testing of PDF certificates
+*1.0
+*includes
+*init

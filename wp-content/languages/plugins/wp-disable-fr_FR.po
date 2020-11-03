@@ -1,0 +1,45 @@
+# Translation of Plugins - Reduce HTTP Requests, Disable Emojis &amp; Disable Embeds, Speedup WooCommerce - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Reduce HTTP Requests, Disable Emojis &amp; Disable Embeds, Speedup WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-01-23 16:25:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Reduce HTTP Requests, Disable Emojis &amp; Disable Embeds, Speedup WooCommerce - Stable (latest release)\n"
+
+#: lib/WpPerformance/Admin.php:29
+msgid "Optimisation.io - Disabler"
+msgstr "Optimisation.io - Outil de désactivation"
+
+#: lib/WpPerformance/Admin.php:254
+msgid "No feeds available."
+msgstr "Aucun flux disponible."
+
+#. #-#-#-#-#  wp-disable-code.pot (WP Disable 1.2.27)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  wp-disable-code.pot (WP Disable 1.2.27)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://optimisation.io"
+msgstr "https://optimisation.io"
+
+#: lib/WpPerformance/Admin.php:30
+msgid "Update Settings"
+msgstr "Mettre à jour les réglages"
+
+#. Author of the plugin/theme
+msgid "pigeonhut, Jody Nesbitt, optimisation.io"
+msgstr "pigeonhut, Jody Nesbitt, optimisation.io"
+
+#. Description of the plugin/theme
+msgid "Improve WordPress performance by disabling unused items."
+msgstr "Améliorez les performances de WordPress en désactivant les éléments inutilisés."
+
+#. #-#-#-#-#  wp-disable-code.pot (WP Disable 1.2.27)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: lib/WpPerformance/Admin.php:29
+msgid "WP Disable"
+msgstr "WP Disable"

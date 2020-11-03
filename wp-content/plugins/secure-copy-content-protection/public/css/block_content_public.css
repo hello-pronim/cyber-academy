@@ -1,0 +1,21 @@
+.conblock_div{
+    text-align: center;
+    border: 4px double #c5c5c5;
+    padding: 5px;
+}
+
+.conblock_div [placeholder]{
+    text-align: center;    
+}
+
+.conblock_div input[type="submit"]{
+    border:1px solid #c5c5c5;
+    margin-top: 5px;     
+}
+
+.conblock_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}

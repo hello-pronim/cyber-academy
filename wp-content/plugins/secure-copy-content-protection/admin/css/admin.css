@@ -1,0 +1,12 @@
+#adminmenu a.toplevel_page_secure-copy-content-protection div.wp-menu-image img {
+    padding: 0;
+    opacity: .6;
+    width: 32px;
+    transition: all .3s;
+}
+
+#adminmenu a.toplevel_page_secure-copy-content-protection + ul.wp-submenu.wp-submenu-wrap li:last-child a {
+    color: #f50057;
+}
+
+

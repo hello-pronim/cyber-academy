@@ -48,3 +48,13 @@ Thumbs.db
 *.mov
 *.wmv
 
+#
+wp-admin/
+wp-includes/
+wp-content/uploads/
+.htaccess
+license.txt
+php.ini
+readme.html
+
+

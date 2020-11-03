@@ -1,0 +1,756 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Popup box\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-08 11:08+0400\n"
+"PO-Revision-Date: 2018-07-13 11:50+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n_noop:1,2;_x\n"
+"X-Poedit-Basepath: .\n"
+"Last-Translator: \n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-secure-copy-content-protection-actions.php:16
+#: ../admin/class-secure-copy-content-protection-actions.php:94
+#: ../admin/class-secure-copy-content-protection-actions.php:245
+#: ../admin/class-secure-copy-content-protection-actions.php:313
+#: ../includes/class-secure-copy-content-protection-activator.php:70
+#: ../public/class-secure-copy-content-protection-public.php:365
+msgid "You cannot copy content of this page"
+msgstr ""
+
+#: ../admin/class-secure-copy-content-protection-admin.php:164
+msgid "Just a moment..."
+msgstr ""
+
+#: ../admin/class-secure-copy-content-protection-admin.php:204
+#: ../admin/class-secure-copy-content-protection-admin.php:205
+msgid "Featured Plugins"
+msgstr ""
+
+#: ../admin/class-secure-copy-content-protection-admin.php:212
+#: ../admin/class-secure-copy-content-protection-admin.php:213
+msgid "PRO Features"
+msgstr ""
+
+#: ../admin/class-secure-copy-content-protection-admin.php:231
+msgid "Settings"
+msgstr ""
+
+#: ../admin/class-secure-copy-content-protection-admin.php:232
+msgid "BUY NOW"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-featured-display.php:5
+msgid "Please feel free to use our other awesome plugins!"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:16
+msgid "Personal"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:21
+msgid "Business"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:27
+msgid "Developer"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:35
+msgid "Free"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:51
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:54
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:71
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:74
+msgid "Support for"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:55
+msgid "1 site"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:56
+msgid "5 site"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:57
+msgid "Unlimited sites"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:61
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:64
+msgid "Upgrade for"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:65
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:75
+msgid "1 months"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:66
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:76
+msgid "12 months"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:67
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:77
+msgid "Lifetime"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:81
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:84
+msgid "Usage for lifetime"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:91
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:94
+msgid "Content Protection"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:101
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:104
+msgid "Disable right-click"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:111
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:114
+msgid "Style settings"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:121
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:124
+msgid "Block by IP"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:131
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:134
+msgid "Block by Country"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:141
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:144
+msgid "Front/back blocker"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:151
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:154
+msgid "Block Rest api"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:161
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:164
+msgid "Protection by user roles"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:171
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:174
+msgid "Protection by post/post type"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:181
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:184
+msgid "Block content with password"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:191
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:194
+msgid "Watermark images"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:201
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:204
+msgid "Paid content via PayPal"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:216
+msgid "Download"
+msgstr ""
+
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:219
+#: ../admin/partials/features/secure-copy-content-protection-pro-features.php:222
+msgid "Buy now"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:40
+msgid "Add Image"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:47
+#: ../public/class-secure-copy-content-protection-public.php:235
+msgid "You need to Enter right password"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:57
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1543
+msgid "Save changes"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:68
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:103
+msgid "General"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:72
+msgid "Options"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:76
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1187
+msgid "Styles"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:80
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:992
+msgid "Block Content"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:84
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1157
+msgid "Block IPs"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:88
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1177
+msgid "Block Country"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:92
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1512
+msgid "Page Blocker"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:96
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1533
+msgid "PayPal"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:108
+msgid "Enable copy protection in all post types"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:110
+msgid "Enable Options category of the plugin"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:124
+msgid "Except this"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:126
+msgid "Disable copy paste option for the website, except selected post types"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:145
+msgid "Enable text selecting"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:147
+msgid "Enable text selecting. This option will work only on desktop, on mobile devices text selecting is always disabled."
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:161
+msgid "Notification text"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:163
+msgid "The warning text that appears after copy attempt"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:179
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:186
+msgid "Upload Audio"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:181
+msgid "The audio that plays after copy attempt"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:207
+msgid "Exclude input and textarea"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:209
+msgid "This option will exclude input and textarea"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:222
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:924
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:947
+msgid "This feature will available in PRO version"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:226
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:926
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:949
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1149
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1169
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1504
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1525
+msgid "This feature is available only in "
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:229
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:929
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:952
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1152
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1172
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1507
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1528
+msgid "PRO version!!!"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:243
+msgid "Copy Options"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:246
+msgid "Show Message"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:249
+msgid "Play Audio"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:280
+msgid "Disable right click"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:282
+msgid "Right click is not allowed"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:311
+msgid "Disable Developer Tools Hot-keys"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:313
+msgid "Not allowed to open developer tools by CTRL+SHIFT+C/CMD+OPT+C, CTRL+SHIFT+J/CMD+OPT+J, CTRL+SHIFT+I/CMD+OPT+I"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:343
+msgid "Disable Drag Start"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:345
+msgid "Not allowed to move the text"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:375
+msgid "Disable F12"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:377
+msgid "Inspect element is not available to open by F12"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:404
+msgid "Disable CTRL-C/CMD-C"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:406
+msgid "Not allowed to copy the highlighted text"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:433
+msgid "Disable CTRL-V/CMD-V"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:435
+msgid "Not allowed to paste the highlighted text"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:462
+msgid "Disable CTRL-S/CMD-S"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:464
+msgid "Not allowed to save the highlighted text"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:491
+msgid "Disable CTRL-A/CMD-A"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:493
+msgid "Not allowed to select all"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:520
+msgid "Disable CTRL-X/CMD-X"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:522
+msgid "Not allowed to cut the highlighted text"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:549
+msgid "Disable CTRL-U/CMD-U"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:551
+msgid "Not allowed to view source of the page"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:578
+msgid "Disable Find on Page Hot-keys"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:580
+msgid "Not allowed to find text on the page by CTRL+F/CMD+F, CTRL+G/CMD+G, CTRL+SHIFT+G/CMD+OPT+G"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:607
+msgid "Disable CTRL-P/CMD-P"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:609
+msgid "Not allowed to print the page"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:636
+msgid "Disable CTRL-H/CMD-H"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:638
+msgid "Does not allow to open history page"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:665
+msgid "Disable CTRL-Լ/CMD-Լ"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:667
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:725
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:754
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:783
+msgid "Does not allow to select the browser address bar"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:694
+msgid "Disable CTRL-K"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:696
+msgid "Disable CTRL+K hot key option"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:723
+msgid "Disable F6"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:752
+msgid "Disable ALT-D"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:781
+msgid "Disable CTRL-E"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:810
+msgid "Disable Print Screen"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:812
+msgid "Not allowed to print screen"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:842
+msgid "Disable left click"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:843
+msgid "( not recommended )"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:846
+msgid "Left click is not allowed"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:875
+msgid "Disable Images actions (Mobile)"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:877
+msgid "Not open images context menu in mobile browsers after taphold. But makes it impossible to scroll over the images."
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:907
+msgid "Protect content when Javascript is disabled"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:909
+msgid "It will block the site content if the user disabled browser Javascript. There will be a white screen with a message."
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:933
+msgid "Images Watermark"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:935
+msgid "Enable watermark with notification text on all site images"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:956
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:958
+msgid "Disable REST API"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:972
+msgid "Block content header text"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:974
+msgid "The header text for block content"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:996
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1141
+msgid "Add new"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1030
+msgid "Shortcode"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1040
+#: ../public/class-secure-copy-content-protection-public.php:247
+msgid "Password"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1041
+msgid "Shows how many times have used a password"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1047
+msgid "Limit"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1048
+msgid "Choose the maximum amount of the usage of the password"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1066
+msgid "OR"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1069
+msgid "Only for"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1070
+msgid "Shows how many times have used a user role"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1105
+msgid "Schedule"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1106
+msgid "Block content status"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1194
+msgid "Tooltip position"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1196
+msgid "Position of tooltip on window"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1204
+msgid "Mouse current position"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1205
+msgid "Center center"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1206
+msgid "Left top"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1207
+msgid "Left bottom"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1208
+msgid "Right top"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1209
+msgid "Right bottom"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1222
+msgid "Tooltip show time (ms)"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1224
+msgid "Tooltip show time in milliseconds. 1000ms is default value."
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1236
+msgid "Tooltip background color"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1238
+msgid "Filler color of tooltip"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1252
+msgid "Tooltip background image"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1253
+msgid "Background image for of the tooltip"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1276
+msgid "Tooltip opacity"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1277
+msgid "The opacity degree of the tooltip"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1291
+msgid "Tooltip text color"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1293
+msgid "Color of tooltip text"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1305
+msgid "Tooltip Font size"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1307
+msgid "Size of tooltip text"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1319
+msgid "Tooltip padding"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1321
+msgid "Tooltip padding in pixels."
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1333
+msgid "Tooltip box shadow"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1335
+msgid "Box-shadow color for tooltip"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1347
+msgid "Tooltip border color"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1349
+msgid "Color of tooltip border"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1361
+msgid "Tooltip border width"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1363
+msgid "This shows the thickness of the border in pixels"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1375
+msgid "Tooltip border style"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1377
+msgid "This shows if the border is highlighted with style"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1386
+msgid "None"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1387
+msgid "Solid"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1388
+msgid "Double"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1389
+msgid "Dotted"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1390
+msgid "Dashed"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1403
+msgid "Tooltip border radius"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1405
+msgid "This shows if the border has curvature"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1419
+msgid "Custom class for tooltip container"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1420
+msgid "Custom HTML class for tooltip container. You can use your class for adding your custom styles for tooltip container."
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1433
+msgid "Custom CSS"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1435
+msgid "Field for entering your own CSS code"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1449
+msgid "Reset styles"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1451
+msgid "Reset tooltip styles to default values"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1458
+msgid "Reset"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1554
+msgid "Blacklist modal"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1562
+msgid "Add IP parts"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1578
+msgid "Close"
+msgstr ""
+
+#: ../admin/partials/secure-copy-content-protection-admin-display.php:1580
+msgid "Add IP"
+msgstr ""
+
+#: ../public/class-secure-copy-content-protection-public.php:248
+msgid "Submit"
+msgstr ""
