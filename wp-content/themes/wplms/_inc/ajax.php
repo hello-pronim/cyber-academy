@@ -829,27 +829,28 @@ function bp_dtheme_ajax_messages_send_reply() {
 	$result = messages_new_message( array( 'thread_id' => (int) $_REQUEST['thread_id'], 'content' => $_REQUEST['content'] ) );
 
 	if ( $result ) { ?>
-		<div class="message-box new-message">
-			<div class="message-metadata">
-				<?php do_action( 'bp_before_message_meta' ); ?>
-				<?php echo bp_loggedin_user_avatar( 'type=thumb&width=30&height=30' ); ?>
+<div class="message-box new-message">
+    <div class="message-metadata">
+        <?php do_action( 'bp_before_message_meta' ); ?>
+        <?php echo bp_loggedin_user_avatar( 'type=thumb&width=30&height=30' ); ?>
 
-				<strong><a href="<?php echo bp_loggedin_user_domain(); ?>"><?php bp_loggedin_user_fullname(); ?></a> <span class="activity"><?php printf( __( 'Sent %s', 'vibe' ), bp_core_time_since( bp_core_current_time() ) ); ?></span></strong>
+        <strong><a href="<?php echo bp_loggedin_user_domain(); ?>"><?php bp_loggedin_user_fullname(); ?></a> <span
+                class="activity"><?php printf( __( 'Sent %s', 'vibe' ), bp_core_time_since( bp_core_current_time() ) ); ?></span></strong>
 
-				<?php do_action( 'bp_after_message_meta' ); ?>
-			</div>
+        <?php do_action( 'bp_after_message_meta' ); ?>
+    </div>
 
-			<?php do_action( 'bp_before_message_content' ); ?>
+    <?php do_action( 'bp_before_message_content' ); ?>
 
-			<div class="message-content">
-				<?php echo stripslashes( apply_filters( 'bp_get_the_thread_message_content', $_REQUEST['content'] ) ); ?>
-			</div>
+    <div class="message-content">
+        <?php echo stripslashes( apply_filters( 'bp_get_the_thread_message_content', $_REQUEST['content'] ) ); ?>
+    </div>
 
-			<?php do_action( 'bp_after_message_content' ); ?>
+    <?php do_action( 'bp_after_message_content' ); ?>
 
-			<div class="clear"></div>
-		</div>
-	<?php
+    <div class="clear"></div>
+</div>
+<?php
 	} else {
 		echo "-1<div id='message' class='error'><p>" . __( 'There was a problem sending that reply. Please try again.', 'vibe' ) . '</p></div>';
 	}
@@ -945,13 +946,12 @@ function bp_dtheme_ajax_messages_autocomplete_results() {
 	// Include everyone in the autocomplete, or just friends?
 	if ( bp_is_current_component( bp_get_messages_slug() ) )
 		$autocomplete_all = buddypress()->messages->autocomplete_all;
-
 	$pag_page = 1;
 	$limit    = (int) $_GET['limit'] ? $_GET['limit'] : apply_filters( 'bp_autocomplete_max_results', 10 );
 
 	// Get the user ids based on the search terms
 	if ( ! empty( $autocomplete_all ) ) {
-		echo $users = BP_Core_User::search_users( $_GET['q'], $limit, $pag_page );
+		$users = BP_Core_User::search_users( $_GET['q'], $limit, $pag_page );
 
 		if ( ! empty( $users['users'] ) ) {
 			// Build an array with the correct format
