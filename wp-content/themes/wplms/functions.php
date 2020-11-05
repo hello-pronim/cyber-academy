@@ -74,45 +74,57 @@ get_template_part('vibe','options');
 		// 
 //Here's my custom CSS that removes the back link in a function
 function my_login_page_remove_back_to_link() { ?>
-    <style type="text/css">
-		body.login{
-			background:none !important;
-		}
-        body.login, body.login form#loginform {
+<style type="text/css">
+body.login {
+    background: none !important;
+}
+
+body.login,
+body.login form#loginform {
     background: white !Important;
-	padding-top: 20px !important;
+    padding-top: 20px !important;
     padding-bottom: 20px !important;
 }
-	form#loginform	label {
+
+form#loginform label {
     color: #333 !important;
     font-weight: bold !important;
     margin-bottom: 10px;
 }
-		body.login #nav a, body.login #backtoblog a {
+
+body.login #nav a,
+body.login #backtoblog a {
     color: #008ec2;
     text-transform: uppercase;
     font-size: 12px !important;
-    opacity: 0.8 ;
+    opacity: 0.8;
     font-weight: bold !important;
 }
-		body.login h1 a {
+
+body.login h1 a {
     background-size: cover !important;
     width: 170px !important;
     height: 95px !important;
 }
-		.login .privacy-policy-page-link {
+
+.login .privacy-policy-page-link {
     margin: 3em 0 2em !important;
 }
-		body.login form#loginform .input, body.login form#loginform input[type=text], body.login form#loginform input[type=checkbox] {
+
+body.login form#loginform .input,
+body.login form#loginform input[type=text],
+body.login form#loginform input[type=checkbox] {
     background: #ffffff;
     border-radius: 2px;
     border: 1px solid #bdbdbd;
     color: gray;
 }
-		.loginpress-show-love {
+
+.loginpress-show-love {
     display: none !important;
 }
-    </style>
+
+</style>
 <?php }
 
 //This loads the function above on the login page
@@ -128,29 +140,31 @@ $user = wp_get_current_user();
 if ( in_array( 'student', (array) $user->roles ) ) {
     //print_r($user);
 	?>
-	<script>
-	jQuery(".minku-logout a").attr("href", "<?php echo home_url(); ?>/my-account/<?php echo $user->data->user_nicename; ?>/dashboard");
-	</script>
-	<?php
+<script>
+jQuery(".minku-logout a").attr("href",
+    "<?php echo home_url(); ?>/my-account/<?php echo $user->data->user_nicename; ?>/dashboard");
+</script>
+<?php
 }elseif ( in_array( 'instructor', (array) $user->roles ) ) {
 	?>
-	<script>
-	jQuery(".minku-logout a").attr("href", "<?php echo home_url(); ?>/my-account/<?php echo $user->data->user_nicename; ?>/dashboard");
-	
-	jQuery(".my-account.course div#subnav ul li").hide();
-	jQuery(".my-account.course div#subnav ul li:last-child").show();
-	jQuery(".my-account.course div#subnav ul li:first-child").removeClass('current');
-	jQuery(".my-account.course div#subnav ul li:last-child").addClass('current');
-	jQuery(".my-account ul li #user-course").attr("href", "<?php echo home_url(); ?>/my-account/<?php echo $user->data->user_nicename; ?>/course/instructor-courses/");
-	
-	</script>
-	<?php	
+<script>
+jQuery(".minku-logout a").attr("href",
+    "<?php echo home_url(); ?>/my-account/<?php echo $user->data->user_nicename; ?>/dashboard");
+
+jQuery(".my-account.course div#subnav ul li").hide();
+jQuery(".my-account.course div#subnav ul li:last-child").show();
+jQuery(".my-account.course div#subnav ul li:first-child").removeClass('current');
+jQuery(".my-account.course div#subnav ul li:last-child").addClass('current');
+jQuery(".my-account ul li #user-course").attr("href",
+    "<?php echo home_url(); ?>/my-account/<?php echo $user->data->user_nicename; ?>/course/instructor-courses/");
+</script>
+<?php	
 }elseif ( in_array( 'administrator', (array) $user->roles ) ) {
 	?>
-	<script>
-	jQuery(".minku-logout a").attr("href", "<?php echo home_url(); ?>/wp-admin");
-	</script>
-	<?php	
+<script>
+jQuery(".minku-logout a").attr("href", "<?php echo home_url(); ?>/wp-admin");
+</script>
+<?php	
 }
 
 }
@@ -183,6 +197,50 @@ function my_login_redirect( $redirect_url,$request_url,$user ) {
 }
 add_filter( 'login_redirect', 'my_login_redirect', 999, 3 );
 
+
+/* get students for searchbox when add student to course in course/admin */
+add_action('wp_ajax_select_users','select_users', 5);
+function select_users(){
+	$course_id=$_POST['course'];	
+	if ( !isset($_POST['security']) || !wp_verify_nonce($_POST['security'],'security'.$course_id) ){
+		echo 'Security check failed !';
+		die();
+	}
+
+	global $wpdb;
+	$term = $_POST['q']['term'];
+	$meta_query = apply_filters('wplms_usermeta_direct_query',"SELECT user_id 
+            FROM {$wpdb->usermeta} 
+            WHERE meta_key = 'course_status$course_id'");
+	$q = "
+        SELECT ID, display_name FROM {$wpdb->users} 
+        WHERE (
+          user_login LIKE '%$term%'
+          OR user_nicename LIKE '%$term%'
+          OR user_email LIKE '%$term%' 
+          OR user_url LIKE '%$term%'
+          OR display_name LIKE '%$term%'
+          ) AND ID IN ( 
+            ".$meta_query."
+            )";
+	$users = $wpdb->get_results($q);
+
+	$user_list = array();
+	// Check for results
+	if (!empty($users)) {
+		foreach($users as $user){
+			$user_list[] = array(
+				'id'=>$user->ID,
+				'image'=>bp_core_fetch_avatar(array('item_id' => $user->ID, 'type' => 'thumb', 'width' => 32, 'height' => 32, 'html'=>false)),
+				'text'=>$user->display_name
+			);
+		}
+		echo json_encode($user_list);
+	} else {
+		echo json_encode(array('id'=>'','text'=>_x('No Users found !','No users found in Course - admin - add users area','wplms')));
+	}
+	die();
+}
 
 
 function data_deserialize($value){
